@@ -1,0 +1,6 @@
+framework module Pods_DemoLessonToDO {
+  umbrella header "Pods-DemoLessonToDO-umbrella.h"
+
+  export *
+  module * { export * }
+}
