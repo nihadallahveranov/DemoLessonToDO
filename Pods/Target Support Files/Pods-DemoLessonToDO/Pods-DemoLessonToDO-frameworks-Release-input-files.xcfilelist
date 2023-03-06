@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-DemoLessonToDO/Pods-DemoLessonToDO-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Hero/Hero.framework
+${BUILT_PRODUCTS_DIR}/TableViewReloadAnimation/TableViewReloadAnimation.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

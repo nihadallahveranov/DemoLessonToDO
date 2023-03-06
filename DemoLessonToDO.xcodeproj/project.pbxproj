@@ -13,6 +13,15 @@
 		3B1492CE29B646650080539C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492CC29B646650080539C /* Main.storyboard */; };
 		3B1492D029B646660080539C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492CF29B646660080539C /* Assets.xcassets */; };
 		3B1492D329B646660080539C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492D129B646660080539C /* LaunchScreen.storyboard */; };
+		3B1492DD29B6578B0080539C /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492DC29B6578B0080539C /* UserDefaultsHelper.swift */; };
+		3B1492E229B67CD60080539C /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492E129B67CD60080539C /* OnBoardingViewController.swift */; };
+		3B1492E529B681820080539C /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492E429B681820080539C /* OnBoardingCollectionViewCell.swift */; };
+		3B1492E829B682160080539C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492E729B682160080539C /* UIView+Extension.swift */; };
+		3B1492EA29B682EA0080539C /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492E929B682EA0080539C /* OnBoardingModel.swift */; };
+		3B1492EC29B6880D0080539C /* todo-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492EB29B6880D0080539C /* todo-1.json */; };
+		3B1492F029B688CC0080539C /* todo-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492EF29B688CC0080539C /* todo-3.json */; };
+		3B1492F429B689690080539C /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492F329B689690080539C /* OnBoardingViewModel.swift */; };
+		3BE290EE29BA436000EB2956 /* todo-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BE290ED29BA436000EB2956 /* todo-2.json */; };
 		969153ACC4150B713D758CF8 /* Pods_DemoLessonToDO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2830618066D4BE6CAFBF58D /* Pods_DemoLessonToDO.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +35,15 @@
 		3B1492CF29B646660080539C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1492D229B646660080539C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1492D429B646660080539C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1492DC29B6578B0080539C /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		3B1492E129B67CD60080539C /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		3B1492E429B681820080539C /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B1492E729B682160080539C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3B1492E929B682EA0080539C /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		3B1492EB29B6880D0080539C /* todo-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "todo-1.json"; sourceTree = "<group>"; };
+		3B1492EF29B688CC0080539C /* todo-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "todo-3.json"; sourceTree = "<group>"; };
+		3B1492F329B689690080539C /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		3BE290ED29BA436000EB2956 /* todo-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "todo-2.json"; path = "../../../../../Downloads/todo-2.json"; sourceTree = "<group>"; };
 		7EF7416623515A6AE26E51D3 /* Pods-DemoLessonToDO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLessonToDO.release.xcconfig"; path = "Target Support Files/Pods-DemoLessonToDO/Pods-DemoLessonToDO.release.xcconfig"; sourceTree = "<group>"; };
 		D2830618066D4BE6CAFBF58D /* Pods_DemoLessonToDO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoLessonToDO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,15 +81,88 @@
 		3B1492C529B646650080539C /* DemoLessonToDO */ = {
 			isa = PBXGroup;
 			children = (
-				3B1492C629B646650080539C /* AppDelegate.swift */,
-				3B1492C829B646650080539C /* SceneDelegate.swift */,
+				3B1492DA29B6554C0080539C /* Resources */,
+				3B1492DB29B657780080539C /* Helper */,
+				3B1492E629B681F70080539C /* Extensions */,
+				3B1492DE29B66C1C0080539C /* Entities */,
+				3B1492E029B67CC00080539C /* OnBoarding */,
 				3B1492CA29B646650080539C /* ViewController.swift */,
 				3B1492CC29B646650080539C /* Main.storyboard */,
-				3B1492CF29B646660080539C /* Assets.xcassets */,
 				3B1492D129B646660080539C /* LaunchScreen.storyboard */,
 				3B1492D429B646660080539C /* Info.plist */,
 			);
 			path = DemoLessonToDO;
+			sourceTree = "<group>";
+		};
+		3B1492DA29B6554C0080539C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492C629B646650080539C /* AppDelegate.swift */,
+				3B1492C829B646650080539C /* SceneDelegate.swift */,
+				3B1492CF29B646660080539C /* Assets.xcassets */,
+				3B1492EB29B6880D0080539C /* todo-1.json */,
+				3BE290ED29BA436000EB2956 /* todo-2.json */,
+				3B1492EF29B688CC0080539C /* todo-3.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B1492DB29B657780080539C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492DC29B6578B0080539C /* UserDefaultsHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3B1492DE29B66C1C0080539C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492E929B682EA0080539C /* OnBoardingModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3B1492E029B67CC00080539C /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492F129B689420080539C /* ViewController */,
+				3B1492F229B6894C0080539C /* ViewModel */,
+				3B1492E329B681650080539C /* Cell */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		3B1492E329B681650080539C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492E429B681820080539C /* OnBoardingCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3B1492E629B681F70080539C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492E729B682160080539C /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B1492F129B689420080539C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492E129B67CD60080539C /* OnBoardingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B1492F229B6894C0080539C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492F329B689690080539C /* OnBoardingViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		DE25E41B0D0868932BF994FD /* Pods */ = {
@@ -80,7 +171,6 @@
 				1DE3898FAE599F6249BFB522 /* Pods-DemoLessonToDO.debug.xcconfig */,
 				7EF7416623515A6AE26E51D3 /* Pods-DemoLessonToDO.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,6 +193,7 @@
 				3B1492BF29B646650080539C /* Sources */,
 				3B1492C029B646650080539C /* Frameworks */,
 				3B1492C129B646650080539C /* Resources */,
+				6E2F120522192F8C8632C2A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,7 +244,10 @@
 			files = (
 				3B1492D329B646660080539C /* LaunchScreen.storyboard in Resources */,
 				3B1492D029B646660080539C /* Assets.xcassets in Resources */,
+				3BE290EE29BA436000EB2956 /* todo-2.json in Resources */,
 				3B1492CE29B646650080539C /* Main.storyboard in Resources */,
+				3B1492EC29B6880D0080539C /* todo-1.json in Resources */,
+				3B1492F029B688CC0080539C /* todo-3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +276,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6E2F120522192F8C8632C2A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoLessonToDO/Pods-DemoLessonToDO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoLessonToDO/Pods-DemoLessonToDO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoLessonToDO/Pods-DemoLessonToDO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1492F429B689690080539C /* OnBoardingViewModel.swift in Sources */,
 				3B1492CB29B646650080539C /* ViewController.swift in Sources */,
+				3B1492E829B682160080539C /* UIView+Extension.swift in Sources */,
 				3B1492C729B646650080539C /* AppDelegate.swift in Sources */,
+				3B1492DD29B6578B0080539C /* UserDefaultsHelper.swift in Sources */,
+				3B1492EA29B682EA0080539C /* OnBoardingModel.swift in Sources */,
+				3B1492E529B681820080539C /* OnBoardingCollectionViewCell.swift in Sources */,
 				3B1492C929B646650080539C /* SceneDelegate.swift in Sources */,
+				3B1492E229B67CD60080539C /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
