@@ -6,5 +6,7 @@ target 'DemoLessonToDO' do
   use_frameworks!
 
   # Pods for DemoLessonToDO
-
+  pod 'Hero'
+  pod 'TableViewReloadAnimation', '~> 0.0.5'
+  pod 'lottie-ios'
 end

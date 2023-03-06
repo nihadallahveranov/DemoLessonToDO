@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let date = Date()
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMM/dd"
+        
+        print(formatter.string(from: date))
     }
 
 
