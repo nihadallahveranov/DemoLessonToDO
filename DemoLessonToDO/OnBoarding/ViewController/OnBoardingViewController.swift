@@ -64,8 +64,9 @@ class OnBoardingViewController: UIViewController {
             collectionView.isPagingEnabled = true
 
         } else {
-//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//                performSegue(withIdentifier: "toDashboard", sender: nil)
+            let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "homeViewController")
+            homeViewController.modalPresentationStyle = .fullScreen
+            present(homeViewController, animated: true)
         }
     }
 

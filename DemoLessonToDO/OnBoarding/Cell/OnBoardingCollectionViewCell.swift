@@ -8,6 +8,12 @@
 import UIKit
 import Lottie
 
+enum LottieAnimations {
+    static let TODO_1 = "todo-1"
+    static let TODO_2 = "todo-2"
+    static let TODO_3 = "todo-3"
+}
+
 class OnBoardingCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var view: UIView!
     @IBOutlet weak var titleLbl: UILabel!
@@ -26,7 +32,7 @@ class OnBoardingCollectionViewCell: UICollectionViewCell {
         animationView!.frame = view.bounds
         animationView!.contentMode = .scaleAspectFit
         
-        if item.image == "todo-3" {
+        if item.image == LottieAnimations.TODO_3 {
             animationView!.loopMode = .playOnce
         } else {
             animationView!.loopMode = .loop
