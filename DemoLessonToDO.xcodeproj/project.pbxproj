@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B1492C729B646650080539C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492C629B646650080539C /* AppDelegate.swift */; };
 		3B1492C929B646650080539C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492C829B646650080539C /* SceneDelegate.swift */; };
-		3B1492CB29B646650080539C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492CA29B646650080539C /* ViewController.swift */; };
+		3B1492CB29B646650080539C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492CA29B646650080539C /* HomeViewController.swift */; };
 		3B1492CE29B646650080539C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492CC29B646650080539C /* Main.storyboard */; };
 		3B1492D029B646660080539C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492CF29B646660080539C /* Assets.xcassets */; };
 		3B1492D329B646660080539C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492D129B646660080539C /* LaunchScreen.storyboard */; };
@@ -21,6 +21,9 @@
 		3B1492EC29B6880D0080539C /* todo-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492EB29B6880D0080539C /* todo-1.json */; };
 		3B1492F029B688CC0080539C /* todo-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1492EF29B688CC0080539C /* todo-3.json */; };
 		3B1492F429B689690080539C /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1492F329B689690080539C /* OnBoardingViewModel.swift */; };
+		3B1C4B6529BA59940086DB6E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C4B6429BA59940086DB6E /* Task.swift */; };
+		3B1C4B6729BA68700086DB6E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C4B6629BA68700086DB6E /* HomeViewModel.swift */; };
+		3BD6026029BB5CFA00CEE3DD /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6025F29BB5CFA00CEE3DD /* TaskTableViewCell.swift */; };
 		3BE290EE29BA436000EB2956 /* todo-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BE290ED29BA436000EB2956 /* todo-2.json */; };
 		969153ACC4150B713D758CF8 /* Pods_DemoLessonToDO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2830618066D4BE6CAFBF58D /* Pods_DemoLessonToDO.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +33,7 @@
 		3B1492C329B646650080539C /* DemoLessonToDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLessonToDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1492C629B646650080539C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1492C829B646650080539C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B1492CA29B646650080539C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B1492CA29B646650080539C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B1492CD29B646650080539C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B1492CF29B646660080539C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1492D229B646660080539C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +46,9 @@
 		3B1492EB29B6880D0080539C /* todo-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "todo-1.json"; sourceTree = "<group>"; };
 		3B1492EF29B688CC0080539C /* todo-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "todo-3.json"; sourceTree = "<group>"; };
 		3B1492F329B689690080539C /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		3B1C4B6429BA59940086DB6E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3B1C4B6629BA68700086DB6E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3BD6025F29BB5CFA00CEE3DD /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		3BE290ED29BA436000EB2956 /* todo-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "todo-2.json"; path = "../../../../../Downloads/todo-2.json"; sourceTree = "<group>"; };
 		7EF7416623515A6AE26E51D3 /* Pods-DemoLessonToDO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLessonToDO.release.xcconfig"; path = "Target Support Files/Pods-DemoLessonToDO/Pods-DemoLessonToDO.release.xcconfig"; sourceTree = "<group>"; };
 		D2830618066D4BE6CAFBF58D /* Pods_DemoLessonToDO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoLessonToDO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +92,7 @@
 				3B1492E629B681F70080539C /* Extensions */,
 				3B1492DE29B66C1C0080539C /* Entities */,
 				3B1492E029B67CC00080539C /* OnBoarding */,
-				3B1492CA29B646650080539C /* ViewController.swift */,
+				3B1C4B5F29BA4AEB0086DB6E /* HomeScreen */,
 				3B1492CC29B646650080539C /* Main.storyboard */,
 				3B1492D129B646660080539C /* LaunchScreen.storyboard */,
 				3B1492D429B646660080539C /* Info.plist */,
@@ -119,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				3B1492E929B682EA0080539C /* OnBoardingModel.swift */,
+				3B1C4B6429BA59940086DB6E /* Task.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -163,6 +170,40 @@
 				3B1492F329B689690080539C /* OnBoardingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B1C4B5F29BA4AEB0086DB6E /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3B1C4B6029BA4B020086DB6E /* ViewController */,
+				3B1C4B6129BA4B100086DB6E /* ViewModel */,
+				3BD6025E29BB5CD800CEE3DD /* TableView */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		3B1C4B6029BA4B020086DB6E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B1492CA29B646650080539C /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B1C4B6129BA4B100086DB6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B1C4B6629BA68700086DB6E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3BD6025E29BB5CD800CEE3DD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6025F29BB5CFA00CEE3DD /* TaskTableViewCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		DE25E41B0D0868932BF994FD /* Pods */ = {
@@ -301,11 +342,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1492F429B689690080539C /* OnBoardingViewModel.swift in Sources */,
-				3B1492CB29B646650080539C /* ViewController.swift in Sources */,
+				3B1492CB29B646650080539C /* HomeViewController.swift in Sources */,
 				3B1492E829B682160080539C /* UIView+Extension.swift in Sources */,
+				3B1C4B6529BA59940086DB6E /* Task.swift in Sources */,
 				3B1492C729B646650080539C /* AppDelegate.swift in Sources */,
 				3B1492DD29B6578B0080539C /* UserDefaultsHelper.swift in Sources */,
+				3B1C4B6729BA68700086DB6E /* HomeViewModel.swift in Sources */,
 				3B1492EA29B682EA0080539C /* OnBoardingModel.swift in Sources */,
+				3BD6026029BB5CFA00CEE3DD /* TaskTableViewCell.swift in Sources */,
 				3B1492E529B681820080539C /* OnBoardingCollectionViewCell.swift in Sources */,
 				3B1492C929B646650080539C /* SceneDelegate.swift in Sources */,
 				3B1492E229B67CD60080539C /* OnBoardingViewController.swift in Sources */,
